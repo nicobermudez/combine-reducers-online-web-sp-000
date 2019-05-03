@@ -24,6 +24,7 @@ function bookReducer(state = [], action) {
           state.books.slice(idx + 1),
         ]
       };
+    }
 }
 function authorReducer(state = [], action) {
   let idx
