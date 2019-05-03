@@ -1,5 +1,9 @@
 import { combineReducers } from 'react';
 
+const rootReducer = combineReducers({
+  authors: authorsReducer,
+  books: booksReducer
+})
 
 export default function bookApp(state = {
   authors: [],
