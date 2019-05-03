@@ -27,7 +27,8 @@ function bookReducer(state = [], action) {
         ]
       };
     }
-}
+  }
+
 function authorReducer(state = [], action) {
   let idx
   switch (action.type) {
