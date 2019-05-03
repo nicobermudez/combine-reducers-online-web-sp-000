@@ -7,7 +7,7 @@ const rootReducer = combineReducers({
 
 export default rootReducer;
 
-function bookReducer(state = [], action) {
+function booksReducer(state = [], action) {
   let idx
   switch (action.type) {
 
@@ -29,7 +29,7 @@ function bookReducer(state = [], action) {
     }
   }
 
-function authorReducer(state = [], action) {
+function authorsReducer(state = [], action) {
   let idx
   switch (action.type) {
     case "ADD_AUTHOR":
