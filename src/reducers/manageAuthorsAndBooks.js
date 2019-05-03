@@ -24,7 +24,10 @@ function bookReducer(state = [], action) {
           state.books.slice(idx + 1),
         ]
       };
-
+}
+function authorReducer(state = [], action) {
+  let idx
+  switch (action.type) {
     case "ADD_AUTHOR":
         return {
           ...state,
