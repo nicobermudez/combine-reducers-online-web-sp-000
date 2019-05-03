@@ -5,7 +5,7 @@ const rootReducer = combineReducers({
   books: booksReducer
 });
 
-export default function bookApp(state = [], action) {
+function bookReducer(state = [], action) {
   let idx
   switch (action.type) {
 
