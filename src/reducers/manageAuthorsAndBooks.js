@@ -1,5 +1,5 @@
 export default function bookApp(state = {
-  authors: [],
+  authors: authorsReducer,
   books: []
 }, action) {
   let idx
