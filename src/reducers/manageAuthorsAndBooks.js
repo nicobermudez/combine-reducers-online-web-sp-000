@@ -1,6 +1,6 @@
 export default function bookApp(state = {
   authors: authorsReducer,
-  books: []
+  books: booksReducer
 }, action) {
   let idx
   switch (action.type) {
