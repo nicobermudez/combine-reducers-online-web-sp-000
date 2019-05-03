@@ -51,4 +51,4 @@ function authorReducer(state = [], action) {
     default:
       return state;
     }
-};
+  };
